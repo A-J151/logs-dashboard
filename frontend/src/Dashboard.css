@@ -1,0 +1,179 @@
+.dashboard-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.dashboard-header {
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.columns-panel {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.columns {
+  width: 200px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.columns-header {
+  margin-bottom: 10px;
+  margin-top: -8px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.logs-section {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.logs-header {
+  display: grid;
+  gap: 12px;
+  padding: 14px 16px;
+  background: #f3f4f6;
+  font-weight: 700;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+}
+
+.logs-header-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #111827;
+}
+
+.logs-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.logs-row {
+  display: grid;
+  gap: 12px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.logs-row:hover {
+  background: #f9fafb;
+}
+
+.logs-cell {
+  font-size: 14px;
+  color: #111827;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logs-message {
+  font-size: 14px;
+  color: #111827;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.log-level {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+}
+
+.more-less {
+  color: #4f46e5;
+  margin-left: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dateRange {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+}
+
+.logout-button {
+  padding: 8px 14px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.filterBar {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  padding: 20px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.subcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
