@@ -26,7 +26,7 @@ export const getLogs = (filters = {}, dateRange = {}) => {
   if (dateRange.startDate) params.startDate = dateRange.startDate;
   if (dateRange.endDate) params.endDate = dateRange.endDate;
 
-  return api.get("/api/logs", { params });
+  return api.get("/logs", { params });
 };
 
 // stats
@@ -37,7 +37,7 @@ export const getStats = (dateRange = {}) => {
 
   // const groupBy = days <= 1 ? "hour" : days <= 7 ? "day" : "week";
   const groupBy = "hour";
-  return api.get("/api/logs/stats", {
+  return api.get("/logs/stats", {
     params: {
       startDate: dateRange.startDate,
       endDate: dateRange.endDate,
@@ -47,11 +47,11 @@ export const getStats = (dateRange = {}) => {
 };
 
 export const createLog = (log) => {
-  return api.post("/api/logs", log);
+  return api.post("/logs", log);
 };
 
 export const getLogsByTxnId = (txnId) => {
-  return api.get(`/api/logs/${txnId}`);
+  return api.get(`/logs/${txnId}`);
 };
 
 export default api;
