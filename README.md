@@ -1,6 +1,6 @@
 # Logs Dashboard
 
-A small full-stack project built for monitoring and exploring application logs.
+This project focuses on building a practical full-stack dashboard with reusable architecture and scalable frontend patterns.
 
 The idea behind this project was to create something closer to a real-world dashboard instead of another basic CRUD app. The app allows users to search logs, filter data, inspect transactions, and visualize activity using charts.
 
