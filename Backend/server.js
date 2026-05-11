@@ -10,7 +10,7 @@ const app=express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://logs-dashboard-one.vercel.app"
+    "https://logs-dashboard-y65u-kjcnp6859-a-j151s-projects.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
