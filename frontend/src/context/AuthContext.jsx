@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       setLoading(true);
-      const res = await api.post("/auth/login", {
+      const res = await api.post("/api/auth/login", {
         email,
         password,
       });
