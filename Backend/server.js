@@ -10,8 +10,10 @@ const app=express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://logs-dashboard-ten.vercel.app"
+    "https://logs-dashboard-one.vercel.app"
   ],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
 }));
 app.use(express.json())
