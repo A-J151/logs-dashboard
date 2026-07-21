@@ -1,51 +1,74 @@
-# Logs Dashboard
+📊 Logs Dashboard
+A modern full-stack Logs Dashboard application built to monitor, search, and analyze application logs efficiently. The dashboard provides a clean and responsive interface with authentication, advanced filtering, pagination, and real-time insights to simplify log management.
+🌐 Live Demo
+Application: https://logs-dashboard-y65u.vercel.app/
 
-This project focuses on building a practical full-stack dashboard with reusable architecture and scalable frontend patterns.
+🔑 Demo Credentials
+Use the following credentials to explore the application:
+Role	          Email	            Password
+Demo User	admin@logdashboard.com	Admin@123
 
-The idea behind this project was to create something closer to a real-world dashboard instead of another basic CRUD app. The app allows users to search logs, filter data, inspect transactions, and visualize activity using charts.
+✨ Features
+•	Secure user authentication
+•	Dashboard overview
+•	Search logs by keyword
+•	Filter logs by severity, source, or date
+•	Pagination for large datasets
+•	Responsive design for desktop and mobile
+•	Modern UI with Material UI
+•	Protected routes
+•	REST API integration
 
-Over time, the project was refactored into reusable hooks and smaller components to keep the codebase easier to manage.
+🛠️ Tech Stack
+Frontend
+•	React
+•	Vite
+•	CSS3
+•	JavaScript
+•	React Router
+•	Axios
 
----
+Backend
+•	Node.js
+•	Express.js
 
-## Features
+Database
+•	MongoDB
 
-- Authentication with JWT
-- Search and filter logs
-- Filter logs using custom date ranges
-- Charts for log activity
-- Hour/day based grouping
-- Pagination and sorting
-- Expandable log messages
-- Dynamic table columns
-- Responsive UI
+Other Tools
+•	JWT Authentication
+•	Git & GitHub
+•	Vercel
+•	Postman
 
----
+🚀 Installation
+Clone the repository
+git clone https://github.com/<USERNAME>/logs-dashboard.git
+Navigate to the project
+cd logs-dashboard
+Install dependencies
+Frontend
+cd frontend
+npm install
+Backend
+cd ../backend
+npm install
+Configure Environment Variables
+Create a .env file inside the backend folder.
 
-## Tech Stack
+Example:
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+Start the backend
+npm run dev
+Start the frontend
+cd ../frontend
+npm run dev
+The frontend will run at:
+http://localhost:5173
 
-### Frontend
-
-- React
-- Vite
-- Axios
-- React Router
-- React Hot Toast
-- React Icons
-
-### Backend
-
-- Node.js
-- Express
-- MongoDB
-- Mongoose
-- JWT
-
----
-
-## Folder Structure
-
-```txt
+📁 Project Structure
 project-root/
 │
 ├── backend/
@@ -63,139 +86,11 @@ project-root/
 │   │   ├── pages/
 │   │   └── utils/
 │   └── vite.config.js
-```
 
----
+👩‍💻 Author
+Arti Joshi
 
-## Running the Project Locally
-
-### 1. Clone the repository
-
-```bash
-git clone <repo-url>
-cd <project-folder>
-```
-
----
-
-## Backend Setup
-
-Move into backend:
-
-```bash
-cd backend
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Create a `.env` file:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret
-```
-
-Run backend:
-
-```bash
-npm run dev
-```
-
-Backend runs on:
-
-```txt
-http://localhost:5000
-```
-
----
-
-## Frontend Setup
-
-Move into frontend:
-
-```bash
-cd frontend
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Create a `.env` file:
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-Run frontend:
-
-```bash
-npm run dev
-```
-
-Frontend runs on:
-
-```txt
-http://localhost:5173
-```
-
----
-
-## Production Build
-
-```bash
-npm run build
-npm run preview
-```
-
----
-
-## Things I Refactored During Development
-
-- Moved repeated filter logic into custom hooks
-- Separated date utilities into helper functions
-- Split dashboard sections into reusable components
-- Reduced inline styles and moved styling into CSS
-- Improved API handling using a shared axios instance
-
----
-
-## Future Improvements
-
-Some things that can still be added:
-
-- Live log streaming
-- Export logs as CSV
-- Better chart controls
-- Dark mode
-- Role-based access
-- Unit tests
-
----
-
-## Final Notes
-
-This project was mainly built for learning and improving full-stack development skills.
-
-The biggest focus areas while building this were:
-
-- handling frontend state cleanly
-- working with reusable hooks
-- managing filtered data
-- improving component structure
-- building a dashboard UI that feels practical
-
-A lot of changes were made during refactoring, especially around filters, table handling, and reusable utilities.
-
----
-
-## License
-
-Open for learning and personal use.
+•	🌐 Portfolio: https://artijoshi-portfolio.netlify.app/
+•	GitHub: https://github.com/A-J151
+•	LinkedIn: https://www.linkedin.com/in/arti-joshi-173549149
+________________________________________
