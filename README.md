@@ -1,10 +1,12 @@
 📊 Logs Dashboard
+
 A modern full-stack Logs Dashboard application built to monitor, search, and analyze application logs efficiently. The dashboard provides a clean and responsive interface with authentication, advanced filtering, pagination, and real-time insights to simplify log management.
 
 🌐 Live Demo
 Application: https://logs-dashboard-y65u.vercel.app/
 
 ✨ Features
+
 •	Secure user authentication
 •	Dashboard overview
 •	Search logs by keyword
@@ -16,6 +18,7 @@ Application: https://logs-dashboard-y65u.vercel.app/
 •	REST API integration
 
 🛠️ Tech Stack
+
 Frontend
 •	React
 •	Vite
@@ -38,6 +41,7 @@ Other Tools
 •	Postman
 
 🚀 Installation
+
 Clone the repository
 git clone https://github.com/<USERNAME>/logs-dashboard.git
 Navigate to the project
@@ -65,6 +69,7 @@ The frontend will run at:
 http://localhost:5173
 
 📁 Project Structure
+
 project-root/
 │
 ├── backend/
@@ -84,6 +89,7 @@ project-root/
 │   └── vite.config.js
 
 👩‍💻 Author
+
 Arti Joshi
 
 •	🌐 Portfolio: https://artijoshi-portfolio.netlify.app/
